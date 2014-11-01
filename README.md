@@ -20,14 +20,11 @@ Then, browse the "index.html" page.
 
 ## Requirements
 
-At this time, the "findit-support" package must be manually installed
-into the vendor directory. See: vendor/README
-
-The SPATIALITE path may need to be specifically set when running the service:
+At this time, the "findit-support" is included in the Gemfile. However, the SPATIALITE path may need to be specifically set when running the service:
 
     SPATIALITE=/usr/local/opt/libspatialite/lib/libspatialite.dylib bin/austin-recycles
 
-For more information, see: vendor/findit-support/README.rdoc
+For more information, and for spatialite installation instructions, see: https://github.com/chip-rosenthal/findit-support#spatialite-support
 
 ## Web Service API:
 
